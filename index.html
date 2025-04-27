@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Demo Page</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      padding: 20px;
-      text-align: center;
-    }
-    h1 {
-      color: #2c3e50;
-    }
-    button {
-      background-color: #3498db;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #2980b9;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mark3</title>
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mark3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-
-  <h1>Welcome to My Demo Page</h1>
-  <p>This is a simple HTML page for testing and demos.</p>
-
-  <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
-
-  <br><br>
-  <button onclick="alert('Button clicked!')">Click Me</button>
-
+            
+    <nav class="navbar nabvar-expand-md navbar-dark navbar-custom sticky-top">
+        <div class="container-fluid">
+         
+            <a class="navbar-brand" href="#" >Food Junction</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="html/login.html"> Log in </a> </li>
+                    <li class="nav-item"><a class="nav-link" href="html/createacc.html"> Create an account </a> </li>
+                </ul>
+            </div>
+    </nav>
+          <div class="carousel-inner">
+            <div class="caurosel-items">
+                <img src="image/coffee.jpg">
+                <div class="carousel-caption">
+                  <h1 class="display-1">Food Junction</h1>
+                  <h3 class="display-3">Welcome to the food Junction</h3>
+                </div>
+             </div>
+            </div>
+    <footer>
+         <div class="container-fluid padding pannel-footer pannel-custom">
+               <div class="row text-center">
+                   <div class="col-sm-4"><p><a class="text-light" href="mark3.html"> Home </a></p> </div>
+                   <div class="col-sm-4"> <p><a class="text-light" href="html/about.html"> About </a></p> </div>
+                   <div class="col-sm-4"><p><a class="text-light " href="html/contact.html"> Contact </a></p> </div>
+                </div>
+           </div>
+         </div>
+        </footer>
 </body>
 </html>
